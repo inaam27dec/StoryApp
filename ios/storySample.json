@@ -1,0 +1,65 @@
+{
+  "data": [
+
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F0.jpg?alt=media&token=760e2af5-833b-419a-ad25-a9a0d77aa647"
+      
+    },
+    {
+      "type": "text",
+      "data": "Once upon a time, a beautiful princess set out on a journey to China. She was accompanied by her faithful servants, and they journeyed through many strange and wonderful lands.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp1s1.mp3?alt=media&token=801e7310-f9ae-41a4-81f2-82f6c049aa5c","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp1s2.mp3?alt=media&token=2a4a218c-f6ab-4536-9687-68bca9d7877c"]
+    },
+    {
+      "type": "text",
+      "data": "Along the way, the princess made many new friends and she was also able to help some of her old friends in need. Finally, after a long and arduous journey, the princess arrived in China. The first thing the princess did upon arrival in China was to visit the Great Wall. She was amazed by the sight and she spent hours walking along the wall, taking in the scenery.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp2s1.mp3?alt=media&token=b8136f07-2952-4264-9beb-53122983285d","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp2s2.mp3?alt=media&token=dc49fc4b-ace2-452e-a927-82db5a3801a2","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp2s3.mp3?alt=media&token=5ada8ceb-0b23-4062-9aa3-466dc4281500","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp2s4.mp3?alt=media&token=9ca76740-5e7c-4357-8080-ad7482355991"]
+    },
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F1.jpg?alt=media&token=ad904d58-ddec-4d74-b52e-dc07db6e3f62"
+    },
+    {
+      "type": "text",
+      "data": "After a few days, the princess moved on to Beijing, where she visited the Forbidden City and the Summer Palace. She was also able to meet the Emperor of China and she was very impressed by his kindness and wisdom.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp3s1.mp3?alt=media&token=62622bdf-d5da-4350-8e32-e4af7b1d3627","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp3s2.mp3?alt=media&token=1e135b12-7f9c-4b57-90a0-8aa37f25ef9e"]
+    },
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F2.jpg?alt=media&token=0ad8d16b-e5a0-42ce-9ea7-8e270bb0b279"
+    },
+    {
+      "type": "text",
+      "data": "The princess continued her journey and she eventually arrived in Shanghai. Here she visited the Bund and the Yew Garden.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp4s1.mp3?alt=media&token=f869353e-d600-431f-bd43-07cdd96419f7","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp4s2.mp3?alt=media&token=02451789-906f-467b-aa48-0b697c99ad94"]
+    },
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F3.jpg?alt=media&token=c95ef0ae-6126-4729-b79c-b1ffb66c6f10"
+    },
+    {
+      "type": "text",
+      "data": "She also went on a cruise down the Huangpu River and she was absolutely mesmerized by the city's skyline.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp5s1.mp3?alt=media&token=1a935b10-d746-447a-bc8b-0c59316e1f81"]
+    },
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F4.jpg?alt=media&token=a65eb4c9-3d11-4246-a8c9-29e20f2c4d73"
+    },
+    {
+      "type": "text",
+      "data": "Finally, after months of exploration, the princess returned home to her kingdom. She was sad to leave China, but she was also excited to share her stories and experiences with her loved ones. The king and Queen were overjoyed to see her, and they asked her to tell them all about her adventures.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp6s1.mp3?alt=media&token=cfc7a286-64e0-4f76-ad5c-9892a8b0a70a","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp6s2.mp3?alt=media&token=fa71ce98-d5b6-483b-a067-b48fe3df93ab","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp6s3.mp3?alt=media&token=b5329bf2-a47b-4b6e-aa88-404ce039d823"]
+    },
+    {
+      "type": "image",
+      "data": "https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storySample%2F5.jpg?alt=media&token=bd237c83-3e89-48bc-901a-7f13bd165f95"
+    },
+    {
+      "type": "text",
+      "data": "The princess related how she had traveled to far off lands, seen strange and wonderful sights, and made new friends along the way. She told them of the different customs she had observed and the different kinds of people she had met. The king and Queen listened intently to everything she said, and they were very proud of their daughter, for her courage and her curiosity.",
+      "sentences": ["https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp7s1.mp3?alt=media&token=9c158e1b-8ea6-4874-8399-e089f0a23b50","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp7s2.mp3?alt=media&token=c39b03c7-a77b-459e-9e84-4847e69348ef","https://firebasestorage.googleapis.com/v0/b/readrlyapp-2ccb4.appspot.com/o/storyvoices%2Fp7s3.mp3?alt=media&token=d2cb4275-b14a-4797-985d-da5a763f20cf"]
+    }
+  ]
+}

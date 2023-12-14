@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dew-zm-lcK">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Story Read View Controller-->
+        <scene sceneID="NQZ-lH-MId">
+            <objects>
+                <viewController storyboardIdentifier="StoryReadViewController" id="dew-zm-lcK" customClass="StoryReadViewController" customModule="Readrly" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gf0-3G-PVV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ost-v8-rzb">
+                                <rect key="frame" x="10" y="48" width="394" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eW6-S2-7OO" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="Uxd-YB-nRR"/>
+                                        </constraints>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" image="back_icon">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="backButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="CKQ-ny-jhM"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Reading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQ8-XR-L1B">
+                                        <rect key="frame" x="52" y="0.0" width="290" height="50"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzj-Qm-pz9">
+                                        <rect key="frame" x="344" y="0.0" width="50" height="50"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="SA3-cR-iIv"/>
+                                        </constraints>
+                                        <color key="tintColor" name="purple"/>
+                                        <state key="normal" image="bookmark.fill" catalog="system">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="bookmarkButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="ht2-gL-V4T"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="qCr-DP-0bR"/>
+                                </constraints>
+                            </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xvb-IB-wDi">
+                                <rect key="frame" x="20" y="20" width="374" height="577"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FPK-uZ-9up">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="1000"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="g0o-oq-d2E">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="1000"/>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="g0o-oq-d2E" secondAttribute="bottom" id="7oB-7c-ZUH"/>
+                                            <constraint firstItem="g0o-oq-d2E" firstAttribute="top" secondItem="FPK-uZ-9up" secondAttribute="top" id="IOw-01-uhq"/>
+                                            <constraint firstItem="g0o-oq-d2E" firstAttribute="leading" secondItem="FPK-uZ-9up" secondAttribute="leading" id="imk-ad-b45"/>
+                                            <constraint firstAttribute="trailing" secondItem="g0o-oq-d2E" secondAttribute="trailing" id="qN3-ej-95g"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="FPK-uZ-9up" secondAttribute="bottom" id="4KA-XJ-eow"/>
+                                    <constraint firstAttribute="trailing" secondItem="FPK-uZ-9up" secondAttribute="trailing" id="CvF-ks-QPz"/>
+                                    <constraint firstItem="FPK-uZ-9up" firstAttribute="top" secondItem="Xvb-IB-wDi" secondAttribute="top" id="Ebe-n2-NYD"/>
+                                    <constraint firstItem="FPK-uZ-9up" firstAttribute="leading" secondItem="Xvb-IB-wDi" secondAttribute="leading" id="psu-uX-ePW"/>
+                                    <constraint firstItem="FPK-uZ-9up" firstAttribute="width" secondItem="Xvb-IB-wDi" secondAttribute="width" id="wTr-o0-mqf"/>
+                                </constraints>
+                            </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mkt-at-Nfb">
+                                <rect key="frame" x="20" y="762" width="374" height="100"/>
+                                <subviews>
+                                    <slider opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="p9E-VP-ldh">
+                                        <rect key="frame" x="8" y="0.0" width="368" height="31"/>
+                                        <color key="minimumTrackTintColor" name="purple"/>
+                                        <color key="maximumTrackTintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="thumbTintColor" name="purple"/>
+                                    </slider>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="mTe-me-dSM">
+                                        <rect key="frame" x="0.0" y="40" width="374" height="60"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fvX-Hu-4qP">
+                                                <rect key="frame" x="0.0" y="5" width="70" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYy-aJ-M3V" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                        <rect key="frame" x="20" y="0.0" width="30" height="30"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="1F0-sp-y4n"/>
+                                                            <constraint firstAttribute="width" constant="30" id="Zc1-ma-tVw"/>
+                                                        </constraints>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" image="highlight_icon">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="highlightButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="ZYr-HU-j79"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VHN-uv-bD2" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                        <rect key="frame" x="7.5" y="30" width="55" height="20"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Highlight">
+                                                            <color key="titleColor" systemColor="labelColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="highlightButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="MAS-Rh-htc"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="3ch-94-6mg"/>
+                                                    <constraint firstAttribute="width" constant="70" id="7Pu-Cc-yNv"/>
+                                                </constraints>
+                                            </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVb-2T-fz2" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                <rect key="frame" x="104" y="11.5" width="37" height="37"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="37" id="77V-BY-zgk"/>
+                                                    <constraint firstAttribute="height" constant="37" id="9hK-Oj-CVy"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="skip_backward">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fastBackwardButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="WB4-N4-C6F"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ec-15-KsA" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                <rect key="frame" x="174.5" y="7.5" width="45" height="45"/>
+                                                <color key="backgroundColor" name="purple"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="jZP-hY-txg"/>
+                                                    <constraint firstAttribute="width" constant="45" id="wBk-o0-zPE"/>
+                                                </constraints>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="play.fill" catalog="system">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="playButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="hIp-ZJ-BQc"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSX-1y-r3w" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                <rect key="frame" x="253.5" y="11.5" width="37" height="37"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="37" id="Fb2-Bl-ngd"/>
+                                                    <constraint firstAttribute="width" constant="37" id="sL1-Po-jn1"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" image="skip_forward">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="fastForwardButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="enc-9r-Ji2"/>
+                                                </connections>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AfE-7S-0tE">
+                                                <rect key="frame" x="324" y="5" width="50" height="50"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pa9-6u-XYg" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                        <rect key="frame" x="10" y="0.0" width="30" height="30"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="kOf-ey-beb"/>
+                                                            <constraint firstAttribute="width" constant="30" id="s0q-hf-5yn"/>
+                                                        </constraints>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" image="microphone">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="voiceButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="foO-fi-zau"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LPx-HH-Lpq" customClass="CircularButton" customModule="Readrly" customModuleProvider="target">
+                                                        <rect key="frame" x="8" y="30" width="34" height="20"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <state key="normal" title="Voice">
+                                                            <color key="titleColor" systemColor="labelColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="voiceButtonWasPressed:" destination="dew-zm-lcK" eventType="touchUpInside" id="1j0-v6-dL6"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="kht-L2-56w"/>
+                                                    <constraint firstAttribute="width" constant="50" id="klT-qh-zwB"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Z0S-KE-Qb5"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="mTe-me-dSM" firstAttribute="leading" secondItem="mkt-at-Nfb" secondAttribute="leading" id="06V-lM-KdD"/>
+                                    <constraint firstItem="p9E-VP-ldh" firstAttribute="top" secondItem="mkt-at-Nfb" secondAttribute="top" id="5me-SE-LTV"/>
+                                    <constraint firstAttribute="trailing" secondItem="mTe-me-dSM" secondAttribute="trailing" id="6Le-pE-HSd"/>
+                                    <constraint firstAttribute="bottom" secondItem="mTe-me-dSM" secondAttribute="bottom" id="B2Q-se-g9L"/>
+                                    <constraint firstItem="mTe-me-dSM" firstAttribute="centerX" secondItem="mkt-at-Nfb" secondAttribute="centerX" id="ERs-1m-9a3"/>
+                                    <constraint firstAttribute="trailing" secondItem="p9E-VP-ldh" secondAttribute="trailing" id="Ufu-pz-aVf"/>
+                                    <constraint firstItem="p9E-VP-ldh" firstAttribute="leading" secondItem="mkt-at-Nfb" secondAttribute="leading" constant="10" id="XNZ-hL-UbN"/>
+                                    <constraint firstAttribute="height" constant="100" id="trF-Bd-rYk"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Dxb-Tg-Cc2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mkt-at-Nfb" firstAttribute="bottom" secondItem="Dxb-Tg-Cc2" secondAttribute="bottom" id="3Us-lb-yjY"/>
+                            <constraint firstItem="Xvb-IB-wDi" firstAttribute="leading" secondItem="Dxb-Tg-Cc2" secondAttribute="leading" constant="20" id="7vL-Nt-Hm4"/>
+                            <constraint firstItem="mkt-at-Nfb" firstAttribute="top" secondItem="Xvb-IB-wDi" secondAttribute="bottom" constant="20" id="AKp-3p-B0N"/>
+                            <constraint firstItem="Xvb-IB-wDi" firstAttribute="top" secondItem="ost-v8-rzb" secondAttribute="bottom" constant="16" id="CeT-Ws-82f"/>
+                            <constraint firstItem="ost-v8-rzb" firstAttribute="top" secondItem="Dxb-Tg-Cc2" secondAttribute="top" id="QXx-K7-X20"/>
+                            <constraint firstItem="Dxb-Tg-Cc2" firstAttribute="trailing" secondItem="Xvb-IB-wDi" secondAttribute="trailing" constant="20" id="fd8-kn-POi"/>
+                            <constraint firstItem="Dxb-Tg-Cc2" firstAttribute="trailing" secondItem="ost-v8-rzb" secondAttribute="trailing" constant="10" id="gUw-lw-czB"/>
+                            <constraint firstItem="mkt-at-Nfb" firstAttribute="leading" secondItem="Dxb-Tg-Cc2" secondAttribute="leading" constant="20" id="v7n-sh-9da"/>
+                            <constraint firstItem="ost-v8-rzb" firstAttribute="leading" secondItem="Gf0-3G-PVV" secondAttribute="leading" constant="10" id="vpS-0g-RgP"/>
+                            <constraint firstItem="Dxb-Tg-Cc2" firstAttribute="trailing" secondItem="mkt-at-Nfb" secondAttribute="trailing" constant="20" id="zMB-Wd-Ny0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bookmarkBtn" destination="nzj-Qm-pz9" id="Hxp-K9-sUv"/>
+                        <outlet property="bottomStackView" destination="mTe-me-dSM" id="h2c-ze-jmz"/>
+                        <outlet property="mainStackView" destination="g0o-oq-d2E" id="mJN-Yh-Idx"/>
+                        <outlet property="playPauseButton" destination="7Ec-15-KsA" id="z7R-4n-iBe"/>
+                        <outlet property="scrollView" destination="Xvb-IB-wDi" id="SbJ-yd-PsV"/>
+                        <outlet property="sliderView" destination="p9E-VP-ldh" id="fcN-sq-At4"/>
+                        <outlet property="titleLbl" destination="jQ8-XR-L1B" id="ZUW-CE-ybx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zhf-Bv-LNA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1763.7681159420292" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="back_icon" width="8" height="14"/>
+        <image name="bookmark.fill" catalog="system" width="110" height="128"/>
+        <image name="highlight_icon" width="72" height="72"/>
+        <image name="microphone" width="72" height="72"/>
+        <image name="play.fill" catalog="system" width="117" height="128"/>
+        <image name="skip_backward" width="96" height="96"/>
+        <image name="skip_forward" width="96" height="96"/>
+        <namedColor name="purple">
+            <color red="0.58399999141693115" green="0.38400000333786011" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

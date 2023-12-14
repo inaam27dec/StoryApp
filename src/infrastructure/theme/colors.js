@@ -1,0 +1,30 @@
+export const colors = {
+  brand: {
+    primary: '#2182BD',
+    secondary: '#5282BD',
+    muted: '#C6DAF7',
+  },
+  ui: {
+    purple: '#9562EA',
+    lightPurple: '#EDE3FF',
+    modalPurple: 'rgba(149, 98, 234, 1)',
+    white: '#FFFFFF',
+    black: '#000000cc', //rgba(0, 0, 0, 0.8),
+    gray: '#00000066', //rgba(0, 0, 0, 0.4),
+    lightGray: '#cdcdcd4d',
+    borderColor: '#ABABAB',
+    darkGray: 'rgba(0, 0, 0, 0.5)',
+    clear: 'rgba(0,0,0,0)',
+    lineColor: 'rgba(0, 0, 0, 0.2)',
+    yellow: '#FFF36D',
+    green: '#00FF00',
+    red: '#FF0000',
+    whiteOpacity: 'rgba(255, 255, 255, 0.8)',
+    textColor: '#272443',
+    // lightGreen: '#32724D',
+    lightGreen: 'rgba(50, 114, 77, 0.7)',
+  },
+  bg: {
+    primary: '#F5F3EF',
+  },
+};

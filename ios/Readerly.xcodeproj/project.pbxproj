@@ -1,0 +1,1094 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* ReaderlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReaderlyTests.m */; };
+		10D6A5BE598016855E09328D /* Pods_Readerly_ReaderlyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67F77623B5614F49A051324A /* Pods_Readerly_ReaderlyTests.framework */; };
+		10E816CDB05E4B24A07E1EAA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B329612678649E8A120077A /* Poppins-Regular.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		52CB99893D01460AAF0051F3 /* SuezOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CB08B2F41A4EF99EADC865 /* SuezOne-Regular.ttf */; };
+		537987CD11F342A2B201FE44 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 796A871FDD5F454EAF5FCDCF /* Poppins-Bold.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		ABFFD1F5FC98490E8E05B87C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE27920FD126452DBA3BD3D3 /* Poppins-Medium.ttf */; };
+		B8F92DEC6CBB43C4A54A61AB /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B58B7DFA0F034E63B2C02CD5 /* Poppins-SemiBold.ttf */; };
+		C048F8679F2643DFBCDB01F4 /* Bjola.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 81F491309E134496943440CC /* Bjola.ttf */; };
+		D9F84DB198306B428FA27059 /* Pods_Readerly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EFDD21D53201AD313BF4E5 /* Pods_Readerly.framework */; };
+		DE0EB3C528BCC92300C485B0 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EB3C428BCC92300C485B0 /* UIApplication+Extension.swift */; };
+		DE0EB3C728BCC94B00C485B0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0EB3C628BCC94B00C485B0 /* UIViewController+Extension.swift */; };
+		DE11169D29911745005A85EE /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE11169C29911745005A85EE /* UserNotifications.framework */; };
+		DE17640228FD3E26001032FB /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE17640128FD3E26001032FB /* StoreKit.framework */; };
+		DE6ABE5128E2C11700DE5632 /* Popups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE6ABE5028E2C11700DE5632 /* Popups.storyboard */; };
+		DE6ABE5328E2C5C300DE5632 /* SettingPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6ABE5228E2C5C300DE5632 /* SettingPopupVC.swift */; };
+		DE6ABE5528E2CCC000DE5632 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6ABE5428E2CCC000DE5632 /* UIView+Extension.swift */; };
+		DE99A18528D997CB00CD31BF /* NotificationName+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99A18428D997CB00CD31BF /* NotificationName+Extension.swift */; };
+		DE99A18728D9EFB600CD31BF /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE99A18628D9EFB600CD31BF /* String+Extension.swift */; };
+		DEB1C93828EC0A96002AAD96 /* VoiceSettingPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB1C93728EC0A96002AAD96 /* VoiceSettingPopupVC.swift */; };
+		DEC0273028D455B8006AF32D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEC0272F28D455B8006AF32D /* GoogleService-Info.plist */; };
+		DEC0273228D45A24006AF32D /* RangeExpression+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0273128D45A24006AF32D /* RangeExpression+Extension.swift */; };
+		DEC0273428D48166006AF32D /* storySample.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC0273328D48166006AF32D /* storySample.json */; };
+		DEDFD9AE28BCA100007E37F0 /* Readerly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9AD28BCA100007E37F0 /* Readerly.swift */; };
+		DEDFD9B028BCA263007E37F0 /* Readerly.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9AF28BCA263007E37F0 /* Readerly.m */; };
+		DEDFD9BC28BCA6C2007E37F0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9B428BCA6C1007E37F0 /* Common.swift */; };
+		DEDFD9BD28BCA6C2007E37F0 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9B528BCA6C1007E37F0 /* Enums.swift */; };
+		DEDFD9BE28BCA6C2007E37F0 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9B628BCA6C1007E37F0 /* constants.swift */; };
+		DEDFD9BF28BCA6C2007E37F0 /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9B828BCA6C2007E37F0 /* CustomViews.swift */; };
+		DEDFD9C028BCA6C2007E37F0 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9BA28BCA6C2007E37F0 /* DataModel.swift */; };
+		DEDFD9C128BCA6C2007E37F0 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9BB28BCA6C2007E37F0 /* Router.swift */; };
+		DEDFD9C328BCA6DD007E37F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDFD9C228BCA6DD007E37F0 /* Main.storyboard */; };
+		DEDFD9C828BCA6FA007E37F0 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9C528BCA6FA007E37F0 /* UIImageView+Extension.swift */; };
+		DEDFD9C928BCA6FA007E37F0 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9C628BCA6FA007E37F0 /* UIScrollView+Extension.swift */; };
+		DEDFD9CA28BCA6FA007E37F0 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9C728BCA6FA007E37F0 /* NSObject+Extension.swift */; };
+		DEDFD9CC28BCA784007E37F0 /* StoryReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDFD9CB28BCA784007E37F0 /* StoryReadViewController.swift */; };
+		E2B6842241A842749461D7F3 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C95BAA8541B545D296136A42 /* Poppins-Light.ttf */; };
+		F8B3B8A428BF92EB00FC7E36 /* RNEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B8A328BF92EB00FC7E36 /* RNEventEmitter.swift */; };
+		F8B3B8A628BF95F800FC7E36 /* RNEventEmitter.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B3B8A528BF95F800FC7E36 /* RNEventEmitter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Readerly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* ReaderlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReaderlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* ReaderlyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReaderlyTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Readrly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Readrly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Readerly/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Readerly/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Readerly/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Readerly/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Readerly/main.m; sourceTree = "<group>"; };
+		18CB08B2F41A4EF99EADC865 /* SuezOne-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SuezOne-Regular.ttf"; path = "../assets/fonts/SuezOne-Regular.ttf"; sourceTree = "<group>"; };
+		58CDFB0318A70969536D34B3 /* Pods-Readerly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readerly.release.xcconfig"; path = "Target Support Files/Pods-Readerly/Pods-Readerly.release.xcconfig"; sourceTree = "<group>"; };
+		67F77623B5614F49A051324A /* Pods_Readerly_ReaderlyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readerly_ReaderlyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		796A871FDD5F454EAF5FCDCF /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Readerly/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81F491309E134496943440CC /* Bjola.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Bjola.ttf; path = ../assets/fonts/Bjola.ttf; sourceTree = "<group>"; };
+		9B329612678649E8A120077A /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		B58B7DFA0F034E63B2C02CD5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		C2742888EDD529BF2C54F57D /* Pods-Readerly-ReaderlyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readerly-ReaderlyTests.debug.xcconfig"; path = "Target Support Files/Pods-Readerly-ReaderlyTests/Pods-Readerly-ReaderlyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2EFDD21D53201AD313BF4E5 /* Pods_Readerly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Readerly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6220DD67B3450CF9ACF6075 /* Pods-Readerly-ReaderlyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readerly-ReaderlyTests.release.xcconfig"; path = "Target Support Files/Pods-Readerly-ReaderlyTests/Pods-Readerly-ReaderlyTests.release.xcconfig"; sourceTree = "<group>"; };
+		C95BAA8541B545D296136A42 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		CE27920FD126452DBA3BD3D3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D0A76FE813DDB30B6282307B /* Pods-Readerly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Readerly.debug.xcconfig"; path = "Target Support Files/Pods-Readerly/Pods-Readerly.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0EB3C428BCC92300C485B0 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		DE0EB3C628BCC94B00C485B0 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		DE11169C29911745005A85EE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		DE17640128FD3E26001032FB /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DE6ABE5028E2C11700DE5632 /* Popups.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Popups.storyboard; sourceTree = "<group>"; };
+		DE6ABE5228E2C5C300DE5632 /* SettingPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPopupVC.swift; sourceTree = "<group>"; };
+		DE6ABE5428E2CCC000DE5632 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		DE99A18428D997CB00CD31BF /* NotificationName+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+Extension.swift"; sourceTree = "<group>"; };
+		DE99A18628D9EFB600CD31BF /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		DEB1C93728EC0A96002AAD96 /* VoiceSettingPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceSettingPopupVC.swift; sourceTree = "<group>"; };
+		DEC0272F28D455B8006AF32D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DEC0273128D45A24006AF32D /* RangeExpression+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RangeExpression+Extension.swift"; sourceTree = "<group>"; };
+		DEC0273328D48166006AF32D /* storySample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = storySample.json; sourceTree = "<group>"; };
+		DEDFD9AC28BCA0FF007E37F0 /* Readerly-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Readerly-Bridging-Header.h"; sourceTree = "<group>"; };
+		DEDFD9AD28BCA100007E37F0 /* Readerly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Readerly.swift; sourceTree = "<group>"; };
+		DEDFD9AF28BCA263007E37F0 /* Readerly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Readerly.m; sourceTree = "<group>"; };
+		DEDFD9B428BCA6C1007E37F0 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		DEDFD9B528BCA6C1007E37F0 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		DEDFD9B628BCA6C1007E37F0 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		DEDFD9B828BCA6C2007E37F0 /* CustomViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		DEDFD9BA28BCA6C2007E37F0 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		DEDFD9BB28BCA6C2007E37F0 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		DEDFD9C228BCA6DD007E37F0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DEDFD9C528BCA6FA007E37F0 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		DEDFD9C628BCA6FA007E37F0 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		DEDFD9C728BCA6FA007E37F0 /* NSObject+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		DEDFD9CB28BCA784007E37F0 /* StoryReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryReadViewController.swift; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F8B3B8A228BF416400FC7E36 /* Readerly.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Readerly.entitlements; path = Readerly/Readerly.entitlements; sourceTree = "<group>"; };
+		F8B3B8A328BF92EB00FC7E36 /* RNEventEmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNEventEmitter.swift; sourceTree = "<group>"; };
+		F8B3B8A528BF95F800FC7E36 /* RNEventEmitter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNEventEmitter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D6A5BE598016855E09328D /* Pods_Readerly_ReaderlyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE11169D29911745005A85EE /* UserNotifications.framework in Frameworks */,
+				DE17640228FD3E26001032FB /* StoreKit.framework in Frameworks */,
+				D9F84DB198306B428FA27059 /* Pods_Readerly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* ReaderlyTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* ReaderlyTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = ReaderlyTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Readerly */ = {
+			isa = PBXGroup;
+			children = (
+				DEC0272F28D455B8006AF32D /* GoogleService-Info.plist */,
+				DEC0273328D48166006AF32D /* storySample.json */,
+				F8B3B8A228BF416400FC7E36 /* Readerly.entitlements */,
+				DEDFD9C428BCA6F1007E37F0 /* Extensions */,
+				DEDFD9B328BCA6AA007E37F0 /* Controllers */,
+				DEDFD9B228BCA6A4007E37F0 /* Storyboards */,
+				DEDFD9B128BCA68B007E37F0 /* Utilities */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				DEDFD9AD28BCA100007E37F0 /* Readerly.swift */,
+				DEDFD9AC28BCA0FF007E37F0 /* Readerly-Bridging-Header.h */,
+				DEDFD9AF28BCA263007E37F0 /* Readerly.m */,
+				F8B3B8A328BF92EB00FC7E36 /* RNEventEmitter.swift */,
+				F8B3B8A528BF95F800FC7E36 /* RNEventEmitter.m */,
+			);
+			name = Readerly;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE11169C29911745005A85EE /* UserNotifications.framework */,
+				DE17640128FD3E26001032FB /* StoreKit.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				C2EFDD21D53201AD313BF4E5 /* Pods_Readerly.framework */,
+				67F77623B5614F49A051324A /* Pods_Readerly_ReaderlyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		790C281D06308C9441013942 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0A76FE813DDB30B6282307B /* Pods-Readerly.debug.xcconfig */,
+				58CDFB0318A70969536D34B3 /* Pods-Readerly.release.xcconfig */,
+				C2742888EDD529BF2C54F57D /* Pods-Readerly-ReaderlyTests.debug.xcconfig */,
+				C6220DD67B3450CF9ACF6075 /* Pods-Readerly-ReaderlyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Readerly */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* ReaderlyTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				790C281D06308C9441013942 /* Pods */,
+				CB3978D2014547D3876A89F1 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Readrly.app */,
+				00E356EE1AD99517003FC87E /* ReaderlyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB3978D2014547D3876A89F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				796A871FDD5F454EAF5FCDCF /* Poppins-Bold.ttf */,
+				C95BAA8541B545D296136A42 /* Poppins-Light.ttf */,
+				CE27920FD126452DBA3BD3D3 /* Poppins-Medium.ttf */,
+				9B329612678649E8A120077A /* Poppins-Regular.ttf */,
+				B58B7DFA0F034E63B2C02CD5 /* Poppins-SemiBold.ttf */,
+				18CB08B2F41A4EF99EADC865 /* SuezOne-Regular.ttf */,
+				81F491309E134496943440CC /* Bjola.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DEDFD9B128BCA68B007E37F0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9B428BCA6C1007E37F0 /* Common.swift */,
+				DEDFD9B628BCA6C1007E37F0 /* constants.swift */,
+				DEDFD9B528BCA6C1007E37F0 /* Enums.swift */,
+				DEDFD9B928BCA6C2007E37F0 /* Models */,
+				DEDFD9BB28BCA6C2007E37F0 /* Router.swift */,
+				DEDFD9B728BCA6C2007E37F0 /* Views */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		DEDFD9B228BCA6A4007E37F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9C228BCA6DD007E37F0 /* Main.storyboard */,
+				DE6ABE5028E2C11700DE5632 /* Popups.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		DEDFD9B328BCA6AA007E37F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9CB28BCA784007E37F0 /* StoryReadViewController.swift */,
+				DE6ABE5228E2C5C300DE5632 /* SettingPopupVC.swift */,
+				DEB1C93728EC0A96002AAD96 /* VoiceSettingPopupVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DEDFD9B728BCA6C2007E37F0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9B828BCA6C2007E37F0 /* CustomViews.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEDFD9B928BCA6C2007E37F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9BA28BCA6C2007E37F0 /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DEDFD9C428BCA6F1007E37F0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEDFD9C728BCA6FA007E37F0 /* NSObject+Extension.swift */,
+				DEDFD9C528BCA6FA007E37F0 /* UIImageView+Extension.swift */,
+				DEDFD9C628BCA6FA007E37F0 /* UIScrollView+Extension.swift */,
+				DE0EB3C428BCC92300C485B0 /* UIApplication+Extension.swift */,
+				DE0EB3C628BCC94B00C485B0 /* UIViewController+Extension.swift */,
+				DEC0273128D45A24006AF32D /* RangeExpression+Extension.swift */,
+				DE99A18428D997CB00CD31BF /* NotificationName+Extension.swift */,
+				DE99A18628D9EFB600CD31BF /* String+Extension.swift */,
+				DE6ABE5428E2CCC000DE5632 /* UIView+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* ReaderlyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReaderlyTests" */;
+			buildPhases = (
+				33CCEA005F12471AF2C26AA3 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				31898510040ABB4052274E48 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = ReaderlyTests;
+			productName = ReaderlyTests;
+			productReference = 00E356EE1AD99517003FC87E /* ReaderlyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* Readerly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Readerly" */;
+			buildPhases = (
+				EA814343551FF3FB064451A8 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5ABD39D1DD419167942FA564 /* [CP] Copy Pods Resources */,
+				CE96DBBEF96109EEABAB1F29 /* [CP-User] [RNFB] Core Configuration */,
+				1D0B76B726A1B4982671A2B7 /* [CP-User] [RNFB] Crashlytics Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Readerly;
+			productName = Readerly;
+			productReference = 13B07F961A680F5B00A75B9A /* Readrly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1340;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Readerly" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Readerly */,
+				00E356ED1AD99517003FC87E /* ReaderlyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC0273428D48166006AF32D /* storySample.json in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				537987CD11F342A2B201FE44 /* Poppins-Bold.ttf in Resources */,
+				E2B6842241A842749461D7F3 /* Poppins-Light.ttf in Resources */,
+				ABFFD1F5FC98490E8E05B87C /* Poppins-Medium.ttf in Resources */,
+				10E816CDB05E4B24A07E1EAA /* Poppins-Regular.ttf in Resources */,
+				DEDFD9C328BCA6DD007E37F0 /* Main.storyboard in Resources */,
+				DEC0273028D455B8006AF32D /* GoogleService-Info.plist in Resources */,
+				B8F92DEC6CBB43C4A54A61AB /* Poppins-SemiBold.ttf in Resources */,
+				52CB99893D01460AAF0051F3 /* SuezOne-Regular.ttf in Resources */,
+				DE6ABE5128E2C11700DE5632 /* Popups.storyboard in Resources */,
+				C048F8679F2643DFBCDB01F4 /* Bjola.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		1D0B76B726A1B4982671A2B7 /* [CP-User] [RNFB] Crashlytics Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Crashlytics Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\nif [[ ${PODS_ROOT} ]]; then\n  echo \"info: Exec FirebaseCrashlytics Run from Pods\"\n  \"${PODS_ROOT}/FirebaseCrashlytics/run\"\nelse\n  echo \"info: Exec FirebaseCrashlytics Run from framework\"\n  \"${PROJECT_DIR}/FirebaseCrashlytics.framework/run\"\nfi\n";
+		};
+		31898510040ABB4052274E48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Readerly-ReaderlyTests/Pods-Readerly-ReaderlyTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Readerly-ReaderlyTests/Pods-Readerly-ReaderlyTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readerly-ReaderlyTests/Pods-Readerly-ReaderlyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33CCEA005F12471AF2C26AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Readerly-ReaderlyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ABD39D1DD419167942FA564 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Readerly/Pods-Readerly-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Readerly/Pods-Readerly-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Readerly/Pods-Readerly-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE96DBBEF96109EEABAB1F29 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		EA814343551FF3FB064451A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Readerly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* ReaderlyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0EB3C728BCC94B00C485B0 /* UIViewController+Extension.swift in Sources */,
+				DE99A18728D9EFB600CD31BF /* String+Extension.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				DEDFD9B028BCA263007E37F0 /* Readerly.m in Sources */,
+				DEDFD9C128BCA6C2007E37F0 /* Router.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				DEDFD9BE28BCA6C2007E37F0 /* constants.swift in Sources */,
+				DEDFD9BC28BCA6C2007E37F0 /* Common.swift in Sources */,
+				DEDFD9BF28BCA6C2007E37F0 /* CustomViews.swift in Sources */,
+				DEDFD9CA28BCA6FA007E37F0 /* NSObject+Extension.swift in Sources */,
+				DE6ABE5528E2CCC000DE5632 /* UIView+Extension.swift in Sources */,
+				DEDFD9C928BCA6FA007E37F0 /* UIScrollView+Extension.swift in Sources */,
+				DE99A18528D997CB00CD31BF /* NotificationName+Extension.swift in Sources */,
+				DEDFD9C828BCA6FA007E37F0 /* UIImageView+Extension.swift in Sources */,
+				DEC0273228D45A24006AF32D /* RangeExpression+Extension.swift in Sources */,
+				DEDFD9CC28BCA784007E37F0 /* StoryReadViewController.swift in Sources */,
+				DEDFD9BD28BCA6C2007E37F0 /* Enums.swift in Sources */,
+				F8B3B8A628BF95F800FC7E36 /* RNEventEmitter.m in Sources */,
+				F8B3B8A428BF92EB00FC7E36 /* RNEventEmitter.swift in Sources */,
+				DEDFD9AE28BCA100007E37F0 /* Readerly.swift in Sources */,
+				DE0EB3C528BCC92300C485B0 /* UIApplication+Extension.swift in Sources */,
+				DEB1C93828EC0A96002AAD96 /* VoiceSettingPopupVC.swift in Sources */,
+				DE6ABE5328E2C5C300DE5632 /* SettingPopupVC.swift in Sources */,
+				DEDFD9C028BCA6C2007E37F0 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* Readerly */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2742888EDD529BF2C54F57D /* Pods-Readerly-ReaderlyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReaderlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readerly.app/Readerly";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6220DD67B3450CF9ACF6075 /* Pods-Readerly-ReaderlyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = ReaderlyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Readerly.app/Readerly";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0A76FE813DDB30B6282307B /* Pods-Readerly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Readerly/Readerly.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7T23MH7T8;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BEMCheckBox/BEMCheckBox.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LabelSwitch/LabelSwitch.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Libuv-gRPC/uv.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/folly.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety/RCTTypeSafety.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNAppleAuthentication/RNAppleAuthentication.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCCheckbox/RNCCheckbox.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNDateTimePicker/RNDateTimePicker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBApp/RNFBApp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBAuth/RNFBAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBFirestore/RNFBFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS/RNFS.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage/RNFastImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler/RNGestureHandler.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGoogleSignin/RNGoogleSignin.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNIap/RNIap.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/RNImageCropPicker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG/RNSVG.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens/RNScreens.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons/RNVectorIcons.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules/CoreModules.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation/RCTAnimation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob/RCTBlob.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage/RCTImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking/RCTLinking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork/RCTNetwork.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings/RCTSettings.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText/RCTText.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration/RCTVibration.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/cxxreact.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi/jsi.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor/jsireact.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger/logger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger/reactperflogger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftAudioEx/SwiftAudioEx.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewController.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga/yoga.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt/fmt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp/libwebp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll/react_native_cameraroll.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-fbsdk/react_native_fbsdk.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-netinfo/react_native_netinfo.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-orientation-locker/react_native_orientation_locker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-slider/react_native_slider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-track-player/react_native_track_player.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-video/react_native_video.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-view-shot/react_native_view_shot.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-webview/react_native_webview.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/rn-fetch-blob/rn_fetch_blob.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = Readerly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Readrly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.readrly.io;
+				PRODUCT_NAME = Readrly;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Readerly-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58CDFB0318A70969536D34B3 /* Pods-Readerly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Readerly/Readerly.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7T23MH7T8;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AppAuth/AppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BEMCheckBox/BEMCheckBox.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BoringSSL-GRPC/openssl_grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion/DoubleConversion.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseFirestore/FirebaseFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseInstallations/FirebaseInstallations.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMAppAuth/GTMAppAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LabelSwitch/LabelSwitch.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Libuv-gRPC/uv.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly/folly.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety/RCTTypeSafety.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNAppleAuthentication/RNAppleAuthentication.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCAsyncStorage/RNCAsyncStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNCCheckbox/RNCCheckbox.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNDateTimePicker/RNDateTimePicker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBApp/RNFBApp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBAuth/RNFBAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFBFirestore/RNFBFirestore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFS/RNFS.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNFastImage/RNFastImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGestureHandler/RNGestureHandler.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNGoogleSignin/RNGoogleSignin.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNIap/RNIap.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNImageCropPicker/RNImageCropPicker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNSVG/RNSVG.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNScreens/RNScreens.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RNVectorIcons/RNVectorIcons.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/React.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules/CoreModules.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation/RCTAnimation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob/RCTBlob.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage/RCTImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking/RCTLinking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork/RCTNetwork.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings/RCTSettings.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText/RCTText.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration/RCTVibration.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact/cxxreact.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi/jsi.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor/jsireact.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector/jsinspector.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger/logger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger/reactperflogger.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftAudioEx/SwiftAudioEx.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TOCropViewController/TOCropViewController.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga/yoga.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/abseil/absl.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt/fmt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/grpcpp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-Core/grpc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog/glog.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libwebp/libwebp.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-cameraroll/react_native_cameraroll.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-fbsdk/react_native_fbsdk.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-netinfo/react_native_netinfo.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-orientation-locker/react_native_orientation_locker.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-slider/react_native_slider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-track-player/react_native_track_player.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-video/react_native_video.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-view-shot/react_native_view_shot.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-webview/react_native_webview.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/rn-fetch-blob/rn_fetch_blob.framework/Headers\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/FBLazyVector\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRequired\"",
+					"\"${PODS_ROOT}/Headers/Public/React-callinvoker\"",
+					"\"${PODS_ROOT}/Headers/Public/React-runtimeexecutor\"",
+					"\"$(PODS_ROOT)/DoubleConversion\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"\"$(PODS_ROOT)/boost\"",
+					"\"$(PODS_ROOT)/Headers/Private/React-Core\"",
+				);
+				INFOPLIST_FILE = Readerly/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Readrly;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.9;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.readrly.io;
+				PRODUCT_NAME = Readrly;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Readerly-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReaderlyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Readerly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Readerly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
